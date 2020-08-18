@@ -1,0 +1,96 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top right, rgba(255, 82, 99, 0.9) 10%, rgba(255, 115, 129, 0.9) 65%, rgba(252, 189, 1, 0.9) 125%);
+}
+
+.online-form {
+    border-radius: 8px;
+    max-width: 560px;
+    padding: 40px;
+    background-color: white;
+    margin: 56px auto;
+    box-shadow: 0px 12px 15px 0 rgba(25, 25, 25, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1D2736;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #47527C;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+#name, #email, #age, #role, #recommend, #favorite-feature, #improvements  {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #1D2736;
+    font-weight: 500;
+}
+
+#improvements>label, #recommend>label {
+    margin-bottom: 16px;
+}
+
+
+input[type=text], input[type=email], input[type=number], #role>#role, #favorite>#favorite-feature {
+    border-radius: 4px;
+    border: 1px solid #bdc4c9;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+#favorite>#favorite-feature {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#recommend, #improvements {
+    margin-bottom: 32px;
+}
+
+.recommend, .improvements {
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    border: 1px solid #bdc4c9;
+}
+
+#submit-btn {
+    padding: 16px 24px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #1D2736;
+    color: white;
+    border-radius: 4px;
+    border-style: none;
+}
+
