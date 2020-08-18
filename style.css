@@ -55,6 +55,13 @@ label {
     margin-bottom: 16px;
 }
 
+input:focus{
+    outline-color: #14aaf5;
+}
+
+select:focus{
+    outline-color: #14aaf5;
+}
 
 input[type=text], input[type=email], input[type=number], #role>#role, #favorite>#favorite-feature {
     border-radius: 4px;
